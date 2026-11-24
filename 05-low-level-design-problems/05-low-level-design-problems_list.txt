@@ -1,0 +1,67 @@
+05-low-level-design-problems/
+│
+├── parking-lot/
+├── elevator-system/
+├── library-management/
+├── movie-ticket-booking/
+├── splitwise/
+├── chess-game/
+├── tic-tac-toe/
+├── snake-and-ladder/
+├── vending-machine/
+├── coffee-vending-machine/
+├── amazon-shopping-cart/
+├── food-delivery-system/
+├── hotel-management/
+├── cab-booking/
+├── notification-system/
+├── logging-framework/
+├── file-system/
+├── cache-system/
+├── rate-limiter/
+├── task-scheduler/
+├── pub-sub-system/
+└── digital-wallet/
+
+Standard structure inside every LLD problem
+This is where I would make your repository look more professional.
+
+For example, every problem should follow the same structure:
+parking-lot/
+│
+├── README.md
+│
+├── docs/
+│   ├── requirements.md
+│   ├── use-cases.md
+│   ├── class-diagram.puml
+│   ├── sequence-diagram.puml
+│   ├── architecture-decisions.md
+│   └── trade-offs.md
+│
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       └── com/
+│   │           └── lld/
+│   │               └── parkinglot/
+│   │                   ├── model/
+│   │                   ├── service/
+│   │                   ├── repository/
+│   │                   ├── strategy/
+│   │                   ├── factory/
+│   │                   ├── enums/
+│   │                   ├── exception/
+│   │                   ├── concurrency/
+│   │                   └── ParkingLotApplication.java
+│   │
+│   └── test/
+│       └── java/
+│           └── com/
+│               └── lld/
+│                   └── parkinglot/
+│                       ├── unit/
+│                       ├── integration/
+│                       └── concurrency/
+│
+└── pom.xml
